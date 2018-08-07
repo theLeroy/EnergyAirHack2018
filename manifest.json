@@ -18,28 +18,17 @@
     "https://ajax.googleapis.com/"
   ],
     "background": {
-   "scripts": ["background.js"] 
-}, 
-    
+   "scripts": ["background.js"]
+},
+
     "content_scripts": [
     {
             "matches": ["https://game.energy.ch/*", "http://game.energy.ch/*"],
-            "css": ["style.css"],
-            "html": ["qualiportal.html"],
             "js": ["script.js"]
         }
     ],
-     "content_scripts": [
-    {
-            "matches": ["https://www.swisscom.ch/de/res/u26-angebote/energy-air-wettbewerb.html"],
-            "js": ["script0.2.js"]
-        }
-    ],
     "web_accessible_resources": [
-        "style.css",
-        "qualiportal.html",
-        "script.js",
-        "script0.2.js"
-        
+        "script.js"
+
     ]
 }

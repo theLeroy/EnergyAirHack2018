@@ -168,6 +168,10 @@ $(document).ready(function () {
          $('.circle:eq( '+randInt+' )>img').click();
          location.reload();
     }
+    if ($(".mobile-padding-question").text() == "1 / 10") {
+      location.reload();
+    }
+
     if ($("#lose").text() === "Neustart") {
         console.log("on loose page -> restart the game");
         var counter = window.localStorage.getItem("counter");
@@ -180,7 +184,7 @@ $(document).ready(function () {
         $('#lose').click();
         setTimeout(function(){
   location.reload();
-}, 2500);
+}, 1000);
 
 
         // window.location.href = window.location.href + "includes/restart.php";

@@ -1,9 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
-  "name": "Ulitimate haker tool",
+  "name": "Ulitimate haker tool for energy Air 2018",
   "description": "###0000###0##0#0#0#0333003##",
-  "version": "8.12",
+  "version": "9.12",
 
   "browser_action": {
     "default_icon": "icon.png",

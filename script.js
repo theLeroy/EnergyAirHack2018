@@ -7,119 +7,115 @@ setTimeout('', 250);
 
 
 var fragen = [
-    {frage: "Wie oft pro Jahr findet das Energy Air statt?" , antwort: "1 Mal"},
-{frage: "Mit welchem Künstler stand Schlangenfrau Nina Burri auf der Bühne?" , antwort: "RedOne"},
-{frage: "Welcher Act stand schon einmal auf der Energy Air Bühne?" , antwort: "Knackeboul"},
-{frage: "Was ist das Energy Air als einziger Energy Event?" , antwort: "Ein Open Air"},
-{frage: "Wann fand das erste Energy Air statt?" , antwort: "Samstag, 6. September 2014"},
-{frage: "Wann ist offiziell Türöffnung beim Energy Air?" , antwort: "14:30 Uhr"},
-{frage: "Wann ist die offizielle Türöffnung beim Energy Air?" , antwort: "14:30 Uhr"},
-{frage: "Wie hiess das Stade de Suisse früher?" , antwort: "Wankdorf"},
-{frage: "Welcher Act performte in einem Karton-Hippie-Bus?" , antwort: "Dodo"},
-{frage: "Zum wievielten Mal findet das Energy Air statt?" , antwort: "Zum 4. Mal"},
-{frage: "Wie hiess der Energy Air Song im Jahr 2014?" , antwort: "Dynamite"},
-{frage: "Wie viele Sitzplätze hat das Stade de Suisse bei Sport Veranstaltungen?" , antwort: "31'120"},
-{frage: "Wann wurde das Stade de Suisse offiziell fertig gestellt?" , antwort: "2005"},
-{frage: "Wie heissen die beiden anderen grossen Events von Energy?" , antwort: "Energy Star Night, Energy Fashion Night"},
-{frage: "Welcher dieser Acts Stand schon auf der Stade de Suisse Bühne?" , antwort: "Miley Cyrus"},
-{frage: "Welcher dieser Acts Stand schon auf der Stade de Suisse Bühne?" , antwort: "Miley Cyrus"},
-{frage: "Von welchem ehemaligen Energy Air Act ist der Song «Bilder im Kopf»?" , antwort: "Sido"},
-{frage: "Von wem wird das Energy Air durchgeführt?" , antwort: "Von Radio Energy"},
-{frage: "Welcher Energy Air Act aus den letzten Jahren stand nur mit seinem Gitarristen auf der Bühne?" , antwort: "Seven"},
-{frage: "Welche Farben dominieren das Energy Air Logo?" , antwort: "Blau"},
-{frage: "Was für Plätze gibt es am Energy Air?" , antwort: "XTRA Circle-Tickets, Steh- und Sitzplätze"},
-{frage: "Welcher Act stand NOCH NIE auf der Energy Air Bühne?" , antwort: "Pharrell Williams"},
-{frage: "Wie viele Tage dauert das Energy Air?" , antwort: "1"},
-{frage: "Wann findet das diesjährige Energy Air statt?" , antwort: "2. September 2017"},
-{frage: "Wie viel kostet die Energy Air App?" , antwort: "Sie ist gratis"},
-{frage: "Wie gross ist die Spielfläche des Stade de Suisse?" , antwort: "105m × 68m"},
-{frage: "Welcher Act stand NOCH NIE auf der Energy Air Bühne?" , antwort: "Leona §Lewis"},
-{frage: "Das Energy Air ist …?" , antwort: "Das Sommerfinale"},
-{frage: "Wann fand das Energy Air letztes Jahr statt?" , antwort: "3. September 2016"},
-{frage: "In welchem Monat findet das Energy Air jeweils statt?" , antwort: "September"},
-{frage: "Ab wann darf man am Energy Air teilnehmen?" , antwort: "Ab 14 Jahren"},
-{frage: "In welchem Jahr stand OneRepublic auf der Bühne des Energy Air?" , antwort: "2016"},
-{frage: "Wie viel kostet ein Energy Air Ticket?" , antwort: "Die Tickets sind gratis und man kann sie nur gewinnen"},
-{frage: "Wie hiess im Jahr 2015 die Energy Air Hymne?" , antwort: "Bring back the energy"},
-{frage: "Wie viele Tickets werden für das Energy Air verlost?" , antwort: "40'000 Tickets"},
-{frage: "Wie viele Male standen Dabu Fantastic bereits auf der Enrgy Air Bühne?" , antwort: "2 Mal"},
-{frage: "Wie viele Male standen Dabu Fantastic bereits auf der Energy Air Bühne?" , antwort: "2 Mal"},
-{frage: "Was bedeutet Air auf Deutsch?" , antwort: "Luft"},
-{frage: "Welches Stadion ist das grösste der Schweiz?" , antwort: "St. Jakob Park in Basel"},
-{frage: "Welcher Fussballverein ist im Stade de Suisse Zuhause?" , antwort: "BSC Young Boys"},
-{frage: "Wie lautet der offizielle Energy Air Hashtag?" , antwort: "#eair17"},
-{frage: "Wo kann man Energy Air Tickets kaufen?" , antwort: "Tickets können nur bei Energy und den Partner gewonnen werden"},
-{frage: "Von welchem vergangenen Energy Air Act ist der Song «Angelina»?" , antwort: "Dabu Fantastic"},
-{frage: "Wer war der letzte Act am Energy Air 2016?" , antwort: "Kungs"},
-{frage: "Was ist die obere Altersbeschränkung des Energy Air?" , antwort: "Es gibt keine"},
-{frage: "Wie viele Zuschauer passen ins Stade de Suisse?" , antwort: "40'000"},
-{frage: "Wo findet das Energy Air statt?" , antwort: "Bern, Stade de Suisse"},
-{frage: "Wo findet das Energy Air statt?" , antwort: "Bern, Stade de Suisse"},
-{frage: "Welche deutsche Sängerin stand letztes Jahr auf der Energy Air Bühne?" , antwort: "Nena"},
-{frage: "Welcher Pop-Sänger stand in diesem Jahr schon auf der Bühne des Stade de Suisse?" , antwort: "Justin Bieber"},
-{frage: "Welcher DJ stand noch nie auf der Energy Air Bühne?" , antwort: "Felix Jaehn"},
-{frage: "In welchen Schweizer Stadt hat Energy KEIN Radiostudio?" , antwort: "St. Gallen"},
-{frage: "In welcher Schweizer Stadt hat Energy KEIN Radiostudio?" , antwort: "St. Gallen"},
-{frage: "Welcher Act stand NOCH NIE auf der Energy Air Bühne?" , antwort: "Pharrell Williams"},
-{frage: "Das Energy Air ist ...?" , antwort: "Das Sommerfinale"},
-{frage: "Wie hiess der Energy Air Song im Jahr 2014?" , antwort: "Dynamite"},
-{frage: "Ab wann darf man, ohne eine erwachsene Begleitperson, am Energy Air teilnehmen?" , antwort: "Ab 14 Jahren"},
-{frage: "Wie viel kostet ein Energy Air Ticket?" , antwort: "Die Tickets sind gratis"},
-{frage: "Wie viele Tage dauert das Energy Air?" , antwort: "1"},
-{frage: "Wie heissen zwei andere grosse Events von Energy?" , antwort: "Energy Star Night, Energy Fashion Night"},
-{frage: "Welche Plätze gibt es am Energy Air?" , antwort: "XTRA Circle-Tickets, Steh- und Sitzplätze"},
-    {frage: "Von wem wird das Energy Air durchgeführt?", antwort: "Von Energy"},
-    {frage: "Von wem wird das Energy Air durchgeführt?", antwort: "Von Energy"},
-    {frage: "Wann ist die offizielle Türöffnung beim Energy Air?", antwort: "14:30 Uhr"},
-    {frage: "Von wem wird das Energy Air durchgeführt?", antwort: "Von Energy"},
-    {frage: "Von wem wird das Energy Air durchgeführt?", antwort: "Von Energy"},
-    {frage: "Welche Plätze gibt es am Energy Air?", antwort: "XTRA Circle-Tickets, Steh- und Sitzplätze"},
-    {frage: "Wie viel kostet ein Energy Air Ticket?", antwort: "Die Tickets sind gratis"},
-    {frage: "Zum wievielten Mal findet das Energy Air statt?", antwort: "Zum 4. Mal"},
-    {frage: "Wie hiess der Energy Air Song im Jahr 2014?", antwort: "Dynamite"},
 
-    {frage: "Welches Festival findet in der gleichen Stadt statt wie Energy Air?" , antwort: "Gurtenfestival"},
-    {frage: "Welcher Energy Air Act trat schon mal am Tomorrowland auf?" , antwort: "Filatov & Karas"},
-    {frage: "Wer stand letztes Jahr bei Energy Air als erstes auf der Bühne?" , antwort: "Nickless"},
-    {frage: "Wie heisst der neue Song von Kungs?" , antwort: "Don't You Know"},
-    {frage: "Wie viele Konzertliebhaber feiern das Energy Air jedes Jahr?", antwort: "40'000"},
-    {frage: "Wo findet das grösste Jazz-Festival Europas statt?", antwort: "In Montreux"},
-    {frage: "Wie lautet Manillios bürgerlicher Name?", antwort: "Manuel Liniger"},
-    {frage: "Wie heisst Manillios aktuelles Album? ", antwort: "Kryptonit"},
-    {frage: "In welcher Stadt findet das Energy Air 2016 statt?", antwort: "Bern"},
-    {frage: "Wie heisst das Open Air am See in Zürich?", antwort: "Touch The Lake"},
-    {frage: "Wie heisst der Frontsänger von OneRepublic?", antwort: "Ryan Tedder"},
-    {frage: "In welchem Monat findet das Gurten Festival statt?", antwort: "Juli"},
-    {frage: "Wie viel Technikmaterial wurde letztes Jahr für die Show benötigt?", antwort: "20 Tonnen"},
-    {frage: "Woher stammt Kungs?", antwort: "Frankreich"},
-    {frage: "Welches Sujet taucht rund ums Energy Air immer wieder auf?", antwort: "Seifenblasen"},
-    {frage: "Wie lautet der Slogan des Energy Air?", antwort: "Energy Air – Unter freiem Himmel"},
-    {frage: "Welcher dieser Acts war am letzten Energy Air nicht dabei?", antwort: "Adel Tawil"},
-    {frage: "Woher hat das Tomorrowland seinen Namen?", antwort: "Von der ausgefallenen «Märchenland»-Gestaltung"},
-    {frage: "Wie war der Slogan des legendären Woodstock Festival?", antwort: "Peace, Love, Music"},
-    {frage: "Aus wie vielen Musikern besteht OneRepublic?", antwort: "5"},
-    {frage: "Was gehört für viele bei einem Festival auf den Kopf?", antwort: "Blumen"},
-    {frage: "Die wievielte Ausgabe des Energy Air findet 2016 statt?", antwort: "Die dritte Ausgabe"},
-    {frage: "Wo ist Rapper Manillio aufgewachsen?", antwort: "Bern"},
-    {frage: "Wo findet das Energy Air dieses Jahr statt?", antwort: "Im Stade de Suisse"},
-    {frage: "Wie heisst der offizielle Energy Air Song 2015?", antwort: "Together We Are One (Bring Back The Energy)"},
-    {frage: "Woher kommt das «Holi Festival of Colours» ursprünglich?", antwort: "Indien"},
-    {frage: "Wie lautet der offizielle Hashtag für das Energy Air 2016?", antwort: "#eair16"},
-    {frage: "Woher stammen Dua Lipas Eltern?", antwort: "Aus dem Kosovo"},
-    {frage: "In welchem Kanton findet das Gampel Openair statt?", antwort: "Wallis"},
-    {frage: "Wie heisst Dua Lipas neuster Hit?", antwort: "Hotter Than Hell"},
-    {frage: "Welche Energy Radiostation existiert nicht?", antwort: "Energy Luzern"},
-    {frage: "Welche Sängerin singt im Remix «Dont Be So Shy» von Filatov & Karas?", antwort: "Imany"},
-    {frage: "Welche Acts kommen ans Energy Air?", antwort: "Nationale und internationale Künstler"},
-    {frage: "In welchem Jahr wurde Kungs geboren?", antwort: "1996"},
-    {frage: "Woher stammt das DJ-Duo Filatov & Karas?", antwort: "Aus Russland"},
-    {frage: "Als was arbeitete Dua Lipa vor ihrer Musikkarriere?", antwort: "Als Model"},
-    {frage: "Mit welchem Hit gelang Kungs der europaweite Durchbruch?", antwort: "This Girl"},
-    {frage: "Was ist ein Line-Up?", antwort: "Eine Liste von Künstlern die auftreten"},
-    {frage: "In welchem Bundesstaat feiern Musikbegeisterte das Coachella Festival?", antwort: "Kalifornien"},
-    {frage: "Wie heisst das grösste Hip-Hop Festival Europas?", antwort: "Open Air Frauenfeld"}
+  {
+    frage: "Wann fand Energy Air zum ersten Mal statt?",
+    antwort: "2014"
+  },
 
+  {
+    frage: "Wann ist der offizielle Filmstart von DAS SCHÖNSTE MÄDCHEN DER WELT in den Schweizer Kinos?",
+    antwort: "6. September 2018"
+  },
+  {
+    frage: "Wer eröffnete das erste Energy Air?",
+    antwort: "Pegasus"
+  },
+  {
+    frage: "Wo erfährst du immer die neusten Infos rund um Energy Air?",
+    antwort: "im Radio, auf der Website und über Social Media"
+  },
+  {
+    frage: "Mit welchem Preis wurde der Nachwuchsstar Luna Wedler dieses Jahr ausgezeichnet?",
+    antwort: "Shootingstar Berlinale 2018"
+  },
+  {
+    frage: "Wer war der letzte Act beim Energy Air 2017?",
+    antwort: "Kodaline"
+  },
+  {
+    frage: "Welche Fussballmannschaft ist im Stade de Suisse zuhause?",
+    antwort: "BSC Young Boys"
+  },
+  {
+    frage: "Welcher dieser Acts hatte einen Auftritt am Energy Air 2017?",
+    antwort: "Aloe Blacc"
+  },
+  {
+    frage: "Wo findet das Energy Air statt?",
+    antwort: "Stade de Suisse (Bern)"
+  },
+  {
+    frage: "Was ist Cyrils besondere Begabung?",
+    antwort: "Texte schreiben und rappen"
+  },
+  {
+    frage: "Wer stand am letzten Energy Air als Überraschungsgast auf der Bühne?",
+    antwort: "Bastian Baker"
+  },
+
+  {
+    frage: "Wie viele Acts waren beim letzten Energy Air dabei?",
+    antwort: "15"
+  },
+
+  {
+    frage: "Welcher Schauspieler/Rapper trägt im Film eine goldene Maske?",
+    antwort: "Cyril"
+  },
+
+  {
+    frage: "Mit welchem dieser Tickets geniesst du die beste Sicht zur Energy Air Bühne?",
+    antwort: "XTRA-Circle"
+  },
+
+  {
+    frage: "Wie viele Energy Air Tickets werden verlost?",
+    antwort: "40’000"
+  },
+
+  {
+    frage: "Die wievielte Energy Air Ausgabe findet dieses Jahr statt?",
+    antwort: "Die fünfte"
+  },
+
+  {
+    frage: "Das NRJ-Gefährt ist ein…",
+    antwort: "Tuk Tuk"
+  },
+
+
+  {
+    frage: "Wann findet das Energy Air 2018 statt?",
+    antwort: "8. September 2018"
+  },
+
+  {
+    frage: "Energy Air Tickets kann man…",
+    antwort: "gewinnen"
+  },
+
+  {
+    frage: "Was ist Cyrils (Aaron Hilmer) Markenzeichen im Film?",
+    antwort: "Seine grosse Nase"
+  },
+
+  {
+    frage: "Welcher Schweizer Shootingstar spielt in DAS SCHÖNSTE MÄDCHEN DER WELT die Hauptrolle?",
+    antwort: "Luna Wedler"
+  },
+
+  {
+    frage: "Wie schwer ist die Energy Air Bühne?",
+    antwort: "1000 Tonnen"
+  },
+
+  {
+    frage: "Wie schwer ist die Energy Air Bühne?",
+    antwort: "450 Tonnen"
+  }
 ];
+
 
 $(document).ready(function () {
     if ($("#go").text() === "LOS GEHTS") {

@@ -6,134 +6,139 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 setTimeout('', 250);
 
 
+function rpSpacesAndcaps(string) {
+  string = string.replace(/ /g,'');
+  string = string.toLowerCase();
+  return string
+}
+
 var fragen = [
-
   {
-    frage: "Wann fand Energy Air zum ersten Mal statt?",
-    antwort: "2014"
+  frage:"wannfandenergyairzumerstenmalstatt?",
+  antwort:"2014"
   },
 
   {
-    frage: "Wann ist der offizielle Filmstart von DAS SCHÖNSTE MÄDCHEN DER WELT in den Schweizer Kinos?",
-    antwort: "6. September 2018"
+  frage:"wannistderoffiziellefilmstartvondasschönstemädchenderweltindenschweizerkinos?",
+  antwort:"6.september2018"
   },
   {
-    frage: "Wer eröffnete das erste Energy Air?",
-    antwort: "Pegasus"
+  frage:"wereröffnetedasersteenergyair?",
+  antwort:"pegasus"
   },
   {
-    frage: "Wo erfährst du immer die neusten Infos rund um Energy Air?",
-    antwort: "im Radio, auf der Website und über Social Media"
+  frage:"woerfährstduimmerdieneusteninfosrundumenergyair?",
+  antwort:"imradio,aufderwebsiteundübersocialmedia"
   },
   {
-    frage: "Mit welchem Preis wurde der Nachwuchsstar Luna Wedler dieses Jahr ausgezeichnet?",
-    antwort: "Shootingstar Berlinale 2018"
+  frage:"mitwelchempreiswurdedernachwuchsstarlunawedlerdiesesjahrausgezeichnet?",
+  antwort:"shootingstarberlinale2018"
   },
   {
-    frage: "Wer war der letzte Act beim Energy Air 2017?",
-    antwort: "Kodaline"
+  frage:"werwarderletzteactbeimenergyair2017?",
+  antwort:"kodaline"
   },
   {
-    frage: "Welche Fussballmannschaft ist im Stade de Suisse zuhause?",
-    antwort: "BSC Young Boys"
+  frage:"welchefussballmannschaftistimstadedesuissezuhause?",
+  antwort:"bscyoungboys"
   },
   {
-    frage: "Welcher dieser Acts hatte einen Auftritt am Energy Air 2017?",
-    antwort: "Aloe Blacc"
+  frage:"welcherdieseractshatteeinenauftrittamenergyair2017?",
+  antwort:"aloeblacc"
   },
   {
-    frage: "Wo findet das Energy Air statt?",
-    antwort: "Stade de Suisse (Bern)"
+  frage:"wofindetdasenergyairstatt?",
+  antwort:"stadedesuisse(bern)"
   },
   {
-    frage: "Was ist Cyrils besondere Begabung?",
-    antwort: "Texte schreiben und rappen"
+  frage:"wasistcyrilsbesonderebegabung?",
+  antwort:"texteschreibenundrappen"
   },
   {
-    frage: "Wer stand am letzten Energy Air als Überraschungsgast auf der Bühne?",
-    antwort: "Bastian Baker"
-  },
-
-  {
-    frage: "Wie viele Acts waren beim letzten Energy Air dabei?",
-    antwort: "15"
+  frage:"werstandamletztenenergyairalsüberraschungsgastaufderbühne?",
+  antwort:"bastianbaker"
   },
 
   {
-    frage: "Welcher Schauspieler/Rapper trägt im Film eine goldene Maske?",
-    antwort: "Cyril"
+  frage:"wievieleactswarenbeimletztenenergyairdabei?",
+  antwort:"15"
   },
 
   {
-    frage: "Mit welchem dieser Tickets geniesst du die beste Sicht zur Energy Air Bühne?",
-    antwort: "XTRA-Circle"
+  frage:"welcherschauspieler/rapperträgtimfilmeinegoldenemaske?",
+  antwort:"cyril"
   },
 
   {
-    frage: "Wie viele Energy Air Tickets werden verlost?",
-    antwort: "40’000"
+  frage:"mitwelchemdieserticketsgeniesstdudiebestesichtzurenergyairbühne?",
+  antwort:"xtra-circle"
   },
 
   {
-    frage: "Die wievielte Energy Air Ausgabe findet dieses Jahr statt?",
-    antwort: "Die fünfte"
+  frage:"wievieleenergyairticketswerdenverlost?",
+  antwort:"40’000"
   },
 
   {
-    frage: "Das NRJ-Gefährt ist ein…",
-    antwort: "Tuk Tuk"
+  frage:"diewievielteenergyairausgabefindetdiesesjahrstatt?",
+  antwort:"diefünfte"
+  },
+
+  {
+  frage:"dasnrj-gefährtistein…",
+  antwort:"tuktuk"
   },
 
 
   {
-    frage: "Wann findet das Energy Air 2018 statt?",
-    antwort: "8. September 2018"
+  frage:"wannfindetdasenergyair2018statt?",
+  antwort:"8.september2018"
   },
 
   {
-    frage: "Energy Air Tickets kann man…",
-    antwort: "gewinnen"
+  frage:"energyairticketskannman…",
+  antwort:"gewinnen"
   },
 
   {
-    frage: "Was ist Cyrils (Aaron Hilmer) Markenzeichen im Film?",
-    antwort: "Seine grosse Nase"
+  frage:"wasistcyrils(aaronhilmer)markenzeichenimfilm?",
+  antwort:"seinegrossenase"
   },
 
   {
-    frage: "Welcher Schweizer Shootingstar spielt in DAS SCHÖNSTE MÄDCHEN DER WELT die Hauptrolle?",
-    antwort: "Luna Wedler"
+  frage:"welcherschweizershootingstarspieltindasschönstemädchenderweltdiehauptrolle?",
+  antwort:"lunawedler"
   },
 
   {
-    frage: "Wie schwer ist die Energy Air Bühne?",
-    antwort: "1000 Tonnen"
+  frage:"wieschweristdieenergyairbühne?",
+  antwort:"1000tonnen"
   },
 
   {
-    frage: "Wie schwer ist die Energy Air Bühne?",
-    antwort: "450 Tonnen"
+  frage:"wieschweristdieenergyairbühne?",
+  antwort:"450tonnen"
   }
 ];
 
 
 $(document).ready(function () {
-    if ($("#go").text() === "LOS GEHTS") {
-
-      console.log("fillValuesInTextBoxes");
-function fillValuesInTextBoxes()
-{
-    var mobile = "YourMobile" // Hier deine Mobile
-    var text = document.getElementById("mobile").value;
-
-    document.getElementById("mobile").value = mobile;
-}
-        fillValuesInTextBoxes();
-        console.log("on start page -> go to first question");
-
-        window.location.href = window.location.href + "./?start=1";
-
-    }
+//     if ($(".btn.btn-primary.game-button.btn-lg").text() == rpSpacesAndcaps("jetztcodeanfordern")) {
+//
+//       console.log("fillValuesInTextBoxes");
+// function fillValuesInTextBoxes()
+// {
+//     var mobile = "YourMobile" // Hier deine Mobile
+//     var text = document.getElementById("mobile").value;
+//
+//     document.getElementById("mobile").value = mobile;
+// }
+//         fillValuesInTextBoxes();
+//         console.log("on start page -> go to first question");
+//
+//         window.location.href = window.location.href + "./?start=1";
+//
+//     }
     if ($(".round-button-circle.round-button").text() === "WEITER GEHTS!") {
         $('.round-button-circle.round-button').attr('id', 'gegeweiter');
         console.log("on all correct page-> go to winpage");
@@ -178,15 +183,17 @@ function fillValuesInTextBoxes()
         console.log("on gameover page!! This should not happen -> restart");
         window.location.href = window.location.href + "includes/restart.php";
     }
-    if ($(".question").length === 1) {
-        var frageText = $(".question h1").text();
+    //Questions
+    if ($("h3.mobile-padding-question").length === 1) {
+        var frageText = $("h3.mobile-padding-question").text();
+        frageText = rpSpacesAndcaps(frageText);
         var result = $.grep(fragen, function (e) {
             return e.frage == frageText;
         });
         var hasCheckbox = false;
         console.log("on question page -> answering");
         if (result.length === 1) {
-            $(".fields .fieldrow label").each(function (index) {
+            $(".answer-wrapper>label").each(function (index) {
                 if ($(this).text() == result[0].antwort) {
                     var inputId = $(this)[0].htmlFor;
                     $("#" + inputId).attr('checked', 'checked');
@@ -208,7 +215,7 @@ function fillValuesInTextBoxes()
                     hasCheckbox = true;
                     return;
                 */
-                console.log("die Antwort " + result[0].antwort + " steht nicht zur auswahl");
+                console.warn("die Antwort " + result[0].antwort + " steht nicht zur auswahl");
             }
         }
         else {
@@ -223,7 +230,7 @@ function fillValuesInTextBoxes()
                     return;
             */
 
-            console.log("diese Frage wurde noch nicht beantwortet");
+            console.warn("diese Frage wurde noch nicht beantwortet");
         }
     }
 });

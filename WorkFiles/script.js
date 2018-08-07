@@ -112,7 +112,7 @@ var fragen = [
 
   {
   frage:"wieschweristdieenergyairbühne?",
-  antwort:"450tonnen"
+  antwort:"60tonnen"
   }
 ];
 
@@ -168,8 +168,10 @@ $(document).ready(function () {
          $('.circle:eq( '+randInt+' )>img').click();
          location.reload();
     }
-    if ($(".mobile-padding-question").text() == "1 / 10") {
-      location.reload();
+    if (rpSpacesAndcaps($(".mobile-padding-question").text()) == "1/10") {
+      setTimeout(function(){
+location.reload();
+}, 500);
     }
 
     if ($("#lose").text() === "Neustart") {
@@ -240,6 +242,7 @@ $(document).ready(function () {
         else {
 
             $("#option1").attr('checked', 'checked');
+            console.warn("diese Frage wurde noch nicht beantwortet");
             $("#next-question").click();
             console.warn("submit");
 
@@ -250,7 +253,13 @@ $(document).ready(function () {
                     return;
             */
 
-            console.warn("diese Frage wurde noch nicht beantwortet");
         }
     }
 });
+
+
+
+
+setTimeout(function(){
+location.reload();
+}, 1000);

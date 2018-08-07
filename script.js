@@ -178,7 +178,11 @@ $(document).ready(function () {
         // window.localStorage.setItem("counter", counter);
         console.log("lost " + counter + " times :(");
         $('#lose').click();
-        location.reload();
+        setTimeout(function(){
+  location.reload();
+}, 2500);
+
+
         // window.location.href = window.location.href + "includes/restart.php";
     }
     if ($("h1").text() === "Serverfehler!") {

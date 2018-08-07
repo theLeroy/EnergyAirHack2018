@@ -112,11 +112,6 @@ var fragen = [
 
   {
   frage:"wieschweristdieenergyairbühne?",
-  antwort:"1000tonnen"
-  },
-
-  {
-  frage:"wieschweristdieenergyairbühne?",
   antwort:"450tonnen"
   }
 ];
@@ -139,6 +134,13 @@ $(document).ready(function () {
 //         window.location.href = window.location.href + "./?start=1";
 //
 //     }
+  if ( rpSpacesAndcaps( $(".container-fluid>h3").text() ) == "duhastdieerstehürdegepackt.umwelchenpreismöchtestduspielen?") {
+    $('.ticket-slot>.tickets>.image>img').click();
+    location.reload();
+  }
+
+
+
     if ($(".round-button-circle.round-button").text() === "WEITER GEHTS!") {
         $('.round-button-circle.round-button').attr('id', 'gegeweiter');
         console.log("on all correct page-> go to winpage");
@@ -159,21 +161,25 @@ $(document).ready(function () {
         $(".round-button").submit();
         $("button").submit();
     }
-    if ($("#wingame h1").text() === "Hinter welchem Energy Air Logo versteckt sich das Ticket?") {
+    if ($(".jumbotron>h2").text() == "Hinter welchem Logo verstecken sich die Tickets?") {
         console.log("on win page -> chosing random bubble");
         var randInt = Math.floor((Math.random() * 12));
-        window.location.href = window.location.href + "./?ticket=" + randInt;
+        // window.location.href = window.location.href + "./?ticket=" + randInt;
+         $('.circle:eq( '+randInt+' )>img').click();
+         location.reload();
     }
-    if ($("#wingame h1").text() === "Das war das falsche Logo, knapp daneben! Versuche es erneut!") {
+    if ($("#lose").text() === "Neustart") {
         console.log("on loose page -> restart the game");
         var counter = window.localStorage.getItem("counter");
         if (counter === null) {
             counter = 0;
         }
         counter++;
-        window.localStorage.setItem("counter", counter);
+        // window.localStorage.setItem("counter", counter);
         console.log("lost " + counter + " times :(");
-        window.location.href = window.location.href + "includes/restart.php";
+        $('#lose').click();
+        location.reload();
+        // window.location.href = window.location.href + "includes/restart.php";
     }
     if ($("h1").text() === "Serverfehler!") {
         console.log("server error -> reloading page");
@@ -194,20 +200,25 @@ $(document).ready(function () {
         console.log("on question page -> answering");
         if (result.length === 1) {
             $(".answer-wrapper>label").each(function (index) {
-                if ($(this).text() == result[0].antwort) {
+              //Test antwort
+                if (rpSpacesAndcaps( $(this).text() ) == result[0].antwort) {
                     var inputId = $(this)[0].htmlFor;
-                    $("#" + inputId).attr('checked', 'checked');
+                    $("[id='"+inputId+"']").click();
                     hasCheckbox = true;
                     return;
                 }
             });
             if (hasCheckbox) {
-                $(".question").submit();
-            }
-            else {
+                $("#next-question").click();
+                console.warn("submit");
+                setTimeout('', 2500);
+                location.reload();
 
-                $("#option2").attr('checked', 'checked');
-                $(".question").submit();
+            } else {
+
+                $("#option2").click();
+                $("#next-question").click();
+                console.warn("submit");
 
                 /*
                  var inputId = 1;
@@ -221,7 +232,8 @@ $(document).ready(function () {
         else {
 
             $("#option1").attr('checked', 'checked');
-            $(".question").submit();
+            $("#next-question").click();
+            console.warn("submit");
 
             /*
             var inputId = 1;

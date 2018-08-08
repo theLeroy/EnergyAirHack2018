@@ -7,10 +7,11 @@ This is e Chrome Extention/Bot witch plays automaticaly the energy air Game. Dow
 
 ## Install
 
-* [ ] Download the latest version vorm the Realeas Tab [here](https://github.com/theLeroy/EnergyAirHack2018/releases)
+* [ ] Download the latest version from the Realeas Tab [here](https://github.com/theLeroy/EnergyAirHack2018/releases)
 * [ ] Unzip it
 * [ ] Go to Chrome extensions (...>Moretools>Extensions)
-* [ ] Enable developer mode click on load extension
+* [ ] Enable Developer mode click "load extension"
+* [ ] Select the Folder
 * [ ] Go to https://game.energy.ch/
 
 

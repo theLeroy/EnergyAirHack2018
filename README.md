@@ -3,7 +3,7 @@
 
 
 Hay there!
-This is e Chrome Extention/bot thaths plays automaticaly the energy air Game. Download it on the Release tab and take the newest Version. Ist very simple to install and use. Feal free to give feeback ore ask Questions in the Issues tab. 
+This is e Chrome Extention/Bot witch plays automaticaly the energy air Game. Download it on the Release tab and take the newest Version. Ist very simple to install and to use. Feal free to give feeback ore ask Questions in the Issues tab. 
 
 ## Install
 
@@ -12,6 +12,9 @@ This is e Chrome Extention/bot thaths plays automaticaly the energy air Game. Do
 * [ ] Go to Chrome extensions (...>Moretools>Extensions)
 * [ ] Enable developer mode click on load extension
 * [ ] Go to https://game.energy.ch/
+
+
+
 
 
 Thanks alot

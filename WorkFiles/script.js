@@ -113,7 +113,118 @@ var fragen = [
   {
   frage:"wieschweristdieenergyairbühne?",
   antwort:"60tonnen"
+  },
+//New one
+  {
+  frage:"energyairistdereinzigeenergyevent,…",
+  antwort:"…fürdenmanticketsnurgewinnenkann."
+  },
+
+  {
+  frage:"wievielespotlightsgibtesamenergyair?",
+  antwort:"500"
+  },
+
+  {
+  frage:"welcheractstandbeimerstenenergyair2014undauchimletztenjahraufderbühne?",
+  antwort:"pegasus"
+  },
+
+  {
+  frage:"aufwelchersocial-media-plattformkannmankeineenergyairticketsgewinnen?",
+  antwort:"twitter"
+  },
+
+  {
+  frage:"wohinführtdieklassenfahrt?",
+  antwort:"berlin"
+  },
+
+  {
+  frage:"wiereistekygoimjahr2015ansenergyair?",
+  antwort:"imprivatjet"
+  },
+
+  {
+  frage:"wiebreitistdieenergyairbühne?",
+  antwort:"70meter"
+  },
+
+  {
+  frage:"woherkommtenergyairactmaxgiesinger?",
+  antwort:"deutschland"
+  },
+
+  {
+  frage:"welchefarbehabendiehaaredessocialmediastarsjuliabeautximfilm?",
+  antwort:"pink"
+  },
+
+  {
+  frage:"aufwelchemwegkannmankeineenergyairticketsgewinnen?",
+  antwort:"e-mail"
+  },
+
+  {
+  frage:"werspieltdiemuttervoncyril?",
+  antwort:"ankeengelke"
+  },
+
+  {
+  frage:"welchensongperformtedodoamenergyairmitdenüberraschungsgästenlo&leduc?",
+  antwort:"füringwer&ewig"
+  },
+
+  {
+  frage:"wievielemitarbeitersindamenergyairimeinsatz?",
+  antwort:"1300"
+  },
+
+  {
+  frage:"waspassiert,wennesameventtagregnet?",
+  antwort:"energyairfindettrotzdemstatt"
+  },
+
+  {
+  frage:"welcheamerikanischebandtratamenergyair2016auf?",
+  antwort:"onerepublic"
+  },
+
+  {
+  frage:"wieheisstderaktuellesommerhitvonenergyairactalvarosoler?",
+  antwort:"lacintura"
+  },
+
+  {
+  frage:"welcherberühmtedj-actstand2017aufderbühnedesenergyair?",
+  antwort:"dimitrivegas&likemike"
+  },
+
+  {
+  frage:"wasverlangtenenaamenergyair2016?",
+  antwort:"einekomplettweissegarderobe"
+  },
+
+  {
+  frage:"wievielekonfetti-kanonengibtesamenergyair?",
+  antwort:"40"
+  },
+
+  {
+  frage:"wannbeginntdasenergyair2018?",
+  antwort:"um16uhr"
+  },
+
+  {
+  frage:"welcheractinterviewtevordemletztenenergyairdaspublikum?",
+  antwort:"babashrimps"
+  },
+
+  {
+  frage:"wennahmknackeboulamenergyair2014mitbackstage?",
+  antwort:"seinmami"
   }
+
 ];
 
 

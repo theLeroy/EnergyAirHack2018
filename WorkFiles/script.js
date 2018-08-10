@@ -112,7 +112,7 @@ var fragen = [
 
   {
   frage:"wieschweristdieenergyairbühne?",
-  antwort:"60tonnen"
+  antwort:"450tonnen"
   },
 //New one
   {
@@ -122,7 +122,7 @@ var fragen = [
 
   {
   frage:"wievielespotlightsgibtesamenergyair?",
-  antwort:"500"
+  antwort:"250"
   },
 
   {
@@ -177,7 +177,7 @@ var fragen = [
 
   {
   frage:"wievielemitarbeitersindamenergyairimeinsatz?",
-  antwort:"1300"
+  antwort:"1000"
   },
 
   {
@@ -207,12 +207,12 @@ var fragen = [
 
   {
   frage:"wievielekonfetti-kanonengibtesamenergyair?",
-  antwort:"40"
+  antwort:"20"
   },
 
   {
   frage:"wannbeginntdasenergyair2018?",
-  antwort:"um16uhr"
+  antwort:"um17uhr"
   },
 
   {

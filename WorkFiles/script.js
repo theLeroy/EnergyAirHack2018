@@ -12,219 +12,217 @@ function rpSpacesAndcaps(string) {
   return string
 }
 
-var fragen = [
-  {
-  frage:"wannfandenergyairzumerstenmalstatt?",
-  antwort:"2014"
-  },
+var fragen = [{
+        frage: "wannfandenergyairzumerstenmalstatt?",
+        antwort: "2014"
+    },
 
-  {
-  frage:"wannistderoffiziellefilmstartvondasschönstemädchenderweltindenschweizerkinos?",
-  antwort:"6.september2018"
-  },
-  {
-  frage:"wereröffnetedasersteenergyair?",
-  antwort:"pegasus"
-  },
-  {
-  frage:"woerfährstduimmerdieneusteninfosrundumenergyair?",
-  antwort:"imradio,aufderwebsiteundübersocialmedia"
-  },
-  {
-  frage:"mitwelchempreiswurdedernachwuchsstarlunawedlerdiesesjahrausgezeichnet?",
-  antwort:"shootingstarberlinale2018"
-  },
-  {
-  frage:"werwarderletzteactbeimenergyair2017?",
-  antwort:"kodaline"
-  },
-  {
-  frage:"welchefussballmannschaftistimstadedesuissezuhause?",
-  antwort:"bscyoungboys"
-  },
-  {
-  frage:"welcherdieseractshatteeinenauftrittamenergyair2017?",
-  antwort:"aloeblacc"
-  },
-  {
-  frage:"wofindetdasenergyairstatt?",
-  antwort:"stadedesuisse(bern)"
-  },
-  {
-  frage:"wasistcyrilsbesonderebegabung?",
-  antwort:"texteschreibenundrappen"
-  },
-  {
-  frage:"werstandamletztenenergyairalsüberraschungsgastaufderbühne?",
-  antwort:"bastianbaker"
-  },
+    {
+        frage: "wannistderoffiziellefilmstartvondasschönstemädchenderweltindenschweizerkinos?",
+        antwort: "6.september2018"
+    },
+    {
+        frage: "wereröffnetedasersteenergyair?",
+        antwort: "bastianbaker"
+    },
+    {
+        frage: "woerfährstduimmerdieneusteninfosrundumenergyair?",
+        antwort: "imradio,aufderwebsiteundübersocialmedia"
+    },
+    {
+        frage: "mitwelchempreiswurdedernachwuchsstarlunawedlerdiesesjahrausgezeichnet?",
+        antwort: "shootingstarberlinale2018"
+    },
+    {
+        frage: "werwarderletzteactbeimenergyair2017?",
+        antwort: "kodaline"
+    },
+    {
+        frage: "welchefussballmannschaftistimstadedesuissezuhause?",
+        antwort: "bscyoungboys"
+    },
+    {
+        frage: "welcherdieseractshatteeinenauftrittamenergyair2017?",
+        antwort: "aloeblacc"
+    },
+    {
+        frage: "wofindetdasenergyairstatt?",
+        antwort: "stadedesuisse(bern)"
+    },
+    {
+        frage: "wasistcyrilsbesonderebegabung?",
+        antwort: "texteschreibenundrappen"
+    },
+    {
+        frage: "werstandamletztenenergyairalsüberraschungsgastaufderbühne?",
+        antwort: "bastianbaker"
+    },
 
-  {
-  frage:"wievieleactswarenbeimletztenenergyairdabei?",
-  antwort:"15"
-  },
+    {
+        frage: "wievieleactswarenbeimletztenenergyairdabei?",
+        antwort: "15"
+    },
 
-  {
-  frage:"welcherschauspieler/rapperträgtimfilmeinegoldenemaske?",
-  antwort:"cyril"
-  },
+    {
+        frage: "welcherschauspieler/rapperträgtimfilmeinegoldenemaske?",
+        antwort: "cyril"
+    },
 
-  {
-  frage:"mitwelchemdieserticketsgeniesstdudiebestesichtzurenergyairbühne?",
-  antwort:"xtra-circle"
-  },
+    {
+        frage: "mitwelchemdieserticketsgeniesstdudiebestesichtzurenergyairbühne?",
+        antwort: "xtra-circle"
+    },
 
-  {
-  frage:"wievieleenergyairticketswerdenverlost?",
-  antwort:"40’000"
-  },
+    {
+        frage: "wievieleenergyairticketswerdenverlost?",
+        antwort: "40’000"
+    },
 
-  {
-  frage:"diewievielteenergyairausgabefindetdiesesjahrstatt?",
-  antwort:"diefünfte"
-  },
+    {
+        frage: "diewievielteenergyairausgabefindetdiesesjahrstatt?",
+        antwort: "dievierte"
+    },
 
-  {
-  frage:"dasnrj-gefährtistein…",
-  antwort:"tuktuk"
-  },
+    {
+        frage: "dasnrj-gefährtistein…",
+        antwort: "tuktuk"
+    },
 
+    {
+        frage: "wannfindetdasenergyair2018statt?",
+        antwort: "8.september2018"
+    },
 
-  {
-  frage:"wannfindetdasenergyair2018statt?",
-  antwort:"8.september2018"
-  },
+    {
+        frage: "energyairticketskannman…",
+        antwort: "gewinnen"
+    },
 
-  {
-  frage:"energyairticketskannman…",
-  antwort:"gewinnen"
-  },
+    {
+        frage: "wasistcyrils(aaronhilmer)markenzeichenimfilm?",
+        antwort: "seinegrossenase"
+    },
 
-  {
-  frage:"wasistcyrils(aaronhilmer)markenzeichenimfilm?",
-  antwort:"seinegrossenase"
-  },
+    {
+        frage: "welcherschweizershootingstarspieltindasschönstemädchenderweltdiehauptrolle?",
+        antwort: "lunawedler"
+    },
 
-  {
-  frage:"welcherschweizershootingstarspieltindasschönstemädchenderweltdiehauptrolle?",
-  antwort:"lunawedler"
-  },
+    {
+        frage: "wieschweristdieenergyairbühne?",
+        antwort: "1000tonnen"
+    },
+    //New one
+    {
+        frage: "energyairistdereinzigeenergyevent,…",
+        antwort: "…fürdenmanticketsnurgewinnenkann."
+    },
 
-  {
-  frage:"wieschweristdieenergyairbühne?",
-  antwort:"450tonnen"
-  },
-//New one
-  {
-  frage:"energyairistdereinzigeenergyevent,…",
-  antwort:"…fürdenmanticketsnurgewinnenkann."
-  },
+    {
+        frage: "wievielespotlightsgibtesamenergyair?",
+        antwort: "250"
+    },
 
-  {
-  frage:"wievielespotlightsgibtesamenergyair?",
-  antwort:"250"
-  },
+    {
+        frage: "welcheractstandbeimerstenenergyair2014undauchimletztenjahraufderbühne?",
+        antwort: "pegasus"
+    },
 
-  {
-  frage:"welcheractstandbeimerstenenergyair2014undauchimletztenjahraufderbühne?",
-  antwort:"pegasus"
-  },
+    {
+        frage: "aufwelchersocial-media-plattformkannmankeineenergyairticketsgewinnen?",
+        antwort: "twitter"
+    },
 
-  {
-  frage:"aufwelchersocial-media-plattformkannmankeineenergyairticketsgewinnen?",
-  antwort:"twitter"
-  },
+    {
+        frage: "wohinführtdieklassenfahrt?",
+        antwort: "berlin"
+    },
 
-  {
-  frage:"wohinführtdieklassenfahrt?",
-  antwort:"berlin"
-  },
+    {
+        frage: "wiereistekygoimjahr2015ansenergyair?",
+        antwort: "imprivatjet"
+    },
 
-  {
-  frage:"wiereistekygoimjahr2015ansenergyair?",
-  antwort:"imprivatjet"
-  },
+    {
+        frage: "wiebreitistdieenergyairbühne?",
+        antwort: "70meter"
+    },
 
-  {
-  frage:"wiebreitistdieenergyairbühne?",
-  antwort:"70meter"
-  },
+    {
+        frage: "woherkommtenergyairactmaxgiesinger?",
+        antwort: "deutschland"
+    },
 
-  {
-  frage:"woherkommtenergyairactmaxgiesinger?",
-  antwort:"deutschland"
-  },
+    {
+        frage: "welchefarbehabendiehaaredessocialmediastarsjuliabeautximfilm?",
+        antwort: "pink"
+    },
 
-  {
-  frage:"welchefarbehabendiehaaredessocialmediastarsjuliabeautximfilm?",
-  antwort:"pink"
-  },
+    {
+        frage: "aufwelchemwegkannmankeineenergyairticketsgewinnen?",
+        antwort: "e-mail"
+    },
 
-  {
-  frage:"aufwelchemwegkannmankeineenergyairticketsgewinnen?",
-  antwort:"e-mail"
-  },
+    {
+        frage: "werspieltdiemuttervoncyril?",
+        antwort: "ankeengelke"
+    },
 
-  {
-  frage:"werspieltdiemuttervoncyril?",
-  antwort:"ankeengelke"
-  },
+    {
+        frage: "welchensongperformtedodoamenergyairmitdenüberraschungsgästenlo&leduc?",
+        antwort: "mishuusdishuus"
+    },
 
-  {
-  frage:"welchensongperformtedodoamenergyairmitdenüberraschungsgästenlo&leduc?",
-  antwort:"füringwer&ewig"
-  },
+    {
+        frage: "wievielemitarbeitersindamenergyairimeinsatz?",
+        antwort: "1300"
+    },
 
-  {
-  frage:"wievielemitarbeitersindamenergyairimeinsatz?",
-  antwort:"1000"
-  },
+    {
+        frage: "waspassiert,wennesameventtagregnet?",
+        antwort: "energyairfindettrotzdemstatt"
+    },
 
-  {
-  frage:"waspassiert,wennesameventtagregnet?",
-  antwort:"energyairfindettrotzdemstatt"
-  },
+    {
+        frage: "welcheamerikanischebandtratamenergyair2016auf?",
+        antwort: "onerepublic"
+    },
 
-  {
-  frage:"welcheamerikanischebandtratamenergyair2016auf?",
-  antwort:"onerepublic"
-  },
+    {
+        frage: "wieheisstderaktuellesommerhitvonenergyairactalvarosoler?",
+        antwort: "lacintura"
+    },
 
-  {
-  frage:"wieheisstderaktuellesommerhitvonenergyairactalvarosoler?",
-  antwort:"lacintura"
-  },
+    {
+        frage: "welcherberühmtedj-actstand2017aufderbühnedesenergyair?",
+        antwort: "dimitrivegas&likemike"
+    },
 
-  {
-  frage:"welcherberühmtedj-actstand2017aufderbühnedesenergyair?",
-  antwort:"dimitrivegas&likemike"
-  },
+    {
+        frage: "wasverlangtenenaamenergyair2016?",
+        antwort: "einekomplettweissegarderobe"
+    },
 
-  {
-  frage:"wasverlangtenenaamenergyair2016?",
-  antwort:"einekomplettweissegarderobe"
-  },
+    {
+        frage: "wievielekonfetti-kanonengibtesamenergyair?",
+        antwort: "20"
+    },
 
-  {
-  frage:"wievielekonfetti-kanonengibtesamenergyair?",
-  antwort:"20"
-  },
+    {
+        frage: "wannbeginntdasenergyair2018?",
+        antwort: "um17uhr"
+    },
 
-  {
-  frage:"wannbeginntdasenergyair2018?",
-  antwort:"um17uhr"
-  },
+    {
+        frage: "welcheractinterviewtevordemletztenenergyairdaspublikum?",
+        antwort: "babashrimps"
+    },
 
-  {
-  frage:"welcheractinterviewtevordemletztenenergyairdaspublikum?",
-  antwort:"babashrimps"
-  },
-
-  {
-  frage:"wennahmknackeboulamenergyair2014mitbackstage?",
-  antwort:"seinmami"
-  }
-
+    {
+        frage: "wennahmknackeboulamenergyair2014mitbackstage?",
+        antwort: "seinmami"
+    }
+W
 ];
 
 

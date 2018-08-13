@@ -222,7 +222,6 @@ var fragen = [{
         frage: "wennahmknackeboulamenergyair2014mitbackstage?",
         antwort: "seinmami"
     }
-W
 ];
 
 

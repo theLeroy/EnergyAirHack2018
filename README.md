@@ -1,6 +1,6 @@
 # EnergyAirHack2018
  A chrome extension to get free tickets for Energy Air 2018
-
+ Its like a bot it outofills everything for you. 
 
 Hay there!
 This is e Chrome Extention/Bot witch plays automaticaly the energy air Game. Download it on the Release tab and take the newest Version. Ist very simple to install and to use. Feal free to give feeback ore ask Questions in the Issues tab.

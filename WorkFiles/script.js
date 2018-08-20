@@ -12,8 +12,9 @@ function rpSpacesAndcaps(string) {
   return string
 }
 
-var fragen = [{
-        frage: "wannfandenergyairzumerstenmalstatt?",
+var fragen = [
+	{
+        frage: "wannfanddasenergyairzumerstenmalstatt?",
         antwort: "2014"
     },
 
@@ -26,7 +27,7 @@ var fragen = [{
         antwort: "bastianbaker"
     },
     {
-        frage: "woerfährstduimmerdieneusteninfosrundumenergyair?",
+        frage: "woerfährstduimmerdieneusteninfosrundumdasenergyair?",
         antwort: "imradio,aufderwebsiteundübersocialmedia"
     },
     {
@@ -34,7 +35,7 @@ var fragen = [{
         antwort: "shootingstarberlinale2018"
     },
     {
-        frage: "werwarderletzteactbeimenergyair2017?",
+        frage: "werwarderletzteactamenergyair2017?",
         antwort: "kodaline"
     },
     {
@@ -47,7 +48,7 @@ var fragen = [{
     },
     {
         frage: "wofindetdasenergyairstatt?",
-        antwort: "stadedesuisse(bern)"
+        antwort: "stadedesuisse,bern"
     },
     {
         frage: "wasistcyrilsbesonderebegabung?",
@@ -140,7 +141,7 @@ var fragen = [{
 
     {
         frage: "wiereistekygoimjahr2015ansenergyair?",
-        antwort: "imprivatjet"
+        antwort: "privatjet"
     },
 
     {
@@ -156,11 +157,6 @@ var fragen = [{
     {
         frage: "welchefarbehabendiehaaredessocialmediastarsjuliabeautximfilm?",
         antwort: "pink"
-    },
-
-    {
-        frage: "aufwelchemwegkannmankeineenergyairticketsgewinnen?",
-        antwort: "e-mail"
     },
 
     {
@@ -186,11 +182,6 @@ var fragen = [{
     {
         frage: "welcheamerikanischebandtratamenergyair2016auf?",
         antwort: "onerepublic"
-    },
-
-    {
-        frage: "wieheisstderaktuellesommerhitvonenergyairactalvarosoler?",
-        antwort: "lacintura"
     },
 
     {
@@ -221,7 +212,67 @@ var fragen = [{
     {
         frage: "wennahmknackeboulamenergyair2014mitbackstage?",
         antwort: "seinmami"
-    }
+    },
+
+	{
+		frage: "mitwelchemhollywoodstaristmilakunisverheiratet?",
+		antwort: "ashtonkutscher"
+	},
+
+	{
+		frage: "abwannistderfilmbadspiesindenschweizerkinoszusehen?",
+		antwort: "ab30.august2018"
+	},
+
+	{
+		frage: "auswelchemfilmistmilakunisbekannt?",
+		antwort: "badmoms"
+	},
+
+	{
+		frage: "aufwelchemwegkannmankeineenergyairticketsgewinnen?",
+		antwort: "e-mail"
+	},
+
+	{
+		frage: "wieheisstderaktuellesommerhitvonenergyairactalvarosoler?",
+		antwort: "lacintura"
+	},
+
+	{
+		frage: "inwelcherhauptstadteuropasmachendiebadspieskeinenhalt?",
+		antwort: "zürich"
+	},
+
+	{
+		frage: "aufwelchemportalkannichzweikinoticketsfürdenfilmbadspiesgewinnen?",
+		antwort: "energyair–thegame"
+	},
+
+	{
+		frage: "wohataudreydenusb-stickversteckt?",
+		antwort: "inderkörperöffnung"
+	},
+
+	{
+		frage: "welchesagentenduogibtabdem30.augustsorichtiggas?",
+		antwort: "milakunisundkatemckinnon"
+	},
+
+	{
+		frage: "wasistaudreyslieblingsbeschäftigung?",
+		antwort: "gamen"
+	},
+
+	{
+		frage: "wessenex-freundisteininternationalerspion?",
+		antwort: "derexvonaudrey(milakunis)"
+	},
+
+	{
+		frage: "wasversteckenaudreyundmorganvordercia?",
+		antwort: "einenusb-stickmitvertraulicheninformationen"
+	}
 ];
 
 

@@ -185,7 +185,7 @@ var fragen = [
     },
 
     {
-        frage: "welcherberühmtedj-actstand2017aufderbühnedesenergyair?",
+        frage: "welcherberühmtewdj-actstand2017aufderbühnedesenergyair?",
         antwort: "dimitrivegas&likemike"
     },
 
@@ -400,9 +400,12 @@ location.reload();
         }
         else {
 
-            $("#option1").attr('checked', 'checked');
-            console.warn("diese Frage wurde noch nicht beantwortet");
+          console.warn("diese Frage wurde noch nicht beantwortet");
+            $( "input[name='answers']:first-of-type" ).click();
             $("#next-question").click();
+            console.warn("submit");
+            setTimeout('', 2500);
+            location.reload();
             console.warn("submit");
 
             /*
